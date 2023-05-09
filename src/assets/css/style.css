@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+a.active {
+  @apply text-emerald-300
+}
+
+#__nuxt {
+  padding: 2rem;
+}
