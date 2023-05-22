@@ -3,9 +3,6 @@ import '@picocss/pico'
 </script>
 
 <template>
-  <Head>
-    <Link rel="icon" href="/favicon.ico" />
-  </Head>
   <Header />
   <main class="container">
     <slot />

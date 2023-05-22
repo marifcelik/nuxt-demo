@@ -9,7 +9,8 @@ export default defineNuxtConfig({
       titleTemplate: "Nuxt Demo - %s",
       meta: [
         { name: 'description', content: 'Nuxt 3 demo app' }
-      ]
+      ],
+      link: [{ rel: 'icon', href: '/favicon.ico' }]
     }
   },
   css: ['@/assets/css/style.css'],
