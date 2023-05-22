@@ -1,5 +1,14 @@
+<script setup lang="ts">
+useHead({
+  title: 'Home Page'
+})
+</script>
+
 <template>
-  <div class="flex w-16 h-16 bg-indigo-400">
-    index page
+  <div>
+    <hgroup>
+      <h1>hi</h1>
+      <h2>this is index page.</h2>
+    </hgroup>
   </div>
 </template>

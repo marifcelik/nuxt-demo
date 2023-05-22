@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: 'About Page'
+})
+</script>
+
 <template>
-    about page
+    <p>about page</p>
 </template>
