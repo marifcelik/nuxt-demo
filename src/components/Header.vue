@@ -1,20 +1,34 @@
 <template>
-  <header class="prose dark:prose-invert">
-    <nav>
-      <NuxtLink to="/">
-        <h1>logo</h1>
-      </NuxtLink>
+  <header>
+    <nav class="container-fluid">
+      <ul>
+        <li>
+          <NuxtLink to="/"><strong>logo</strong></NuxtLink>
+        </li>
+      </ul>
       <ul>
         <li>
           <NuxtLink :to="{ name: 'index' }">home</NuxtLink>
         </li>
         <li>
-          <NuxtLink :to="{ name: 'posts ' }">posts</NuxtLink>
+          <NuxtLink :to="{ name: 'prods' }">products</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about">about</NuxtLink>
+          <NuxtLink :to="{ name: 'about' }">about</NuxtLink>
         </li>
       </ul>
     </nav>
   </header>
 </template>
+
+<style lang="scss">
+$navMargin: 2rem !important;
+
+ul:first-child {
+  margin-left: $navMargin;
+}
+
+ul:last-child {
+  margin-right: $navMargin;
+}
+</style>
