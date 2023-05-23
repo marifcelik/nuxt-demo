@@ -2,6 +2,8 @@
 
 Nuxt demo application
 
+[Live Demo](https://nuxt-demo-bice.vercel.app/)
+
 ## Setup
 
 Make sure to install the dependencies:
