@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { NuxtError } from 'nuxt/app';
+import '@picocss/pico';
 
 defineProps<{
   error: Partial<NuxtError>
