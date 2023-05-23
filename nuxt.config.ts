@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Nuxt 3 demo app' }
       ],
-      link: [{ rel: 'icon', href: '/favicon.ico' }]
+      link: [{ rel: 'icon', href: '/favicon.ico', sizes: '32x32' }]
     }
   },
   css: ['@/assets/css/style.css'],
@@ -22,13 +22,10 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      'API_URL': '',
+      'API_URL': 'https://fakestoreapi.com',
     }
   },
-  // experimental: {
-  //   typedPages: true
-  // },
-  vite: {
-    publicDir: '../public'
+  dir: {
+    public: '../public'
   }
 })
